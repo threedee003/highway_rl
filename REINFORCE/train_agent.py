@@ -29,8 +29,8 @@ agent = REINFORCE(state_dim=5, action_dim=5)
 n = make_log_dir("/home/hw1896957/HighwayEnv/rl_av/runs/REINFORCE")
 
 
-writer = SummaryWriter(log_dir = f"/home/hw1896957/HighwayEnv/rl_av/runs/REINFORCE/run_{n}")
-SAVE_PATH = f"/home/hw1896957/HighwayEnv/rl_av/REINFORCE/weights/run_{n}.pth"
+writer = SummaryWriter(log_dir = f"/home/bikram/HighwayEnv/rl_av/runs/REINFORCE/run_{n}")
+SAVE_PATH = f"/home/bikram/HighwayEnv/rl_av/REINFORCE/weights/run_{n}.pth"
 
 
 num_episodes = 250
