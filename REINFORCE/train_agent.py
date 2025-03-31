@@ -26,7 +26,7 @@ env.unwrapped.config['observation']['vehicles_count'] = 5
 agent = REINFORCE(state_dim=5, action_dim=5)
 
 
-n = make_log_dir("/home/hw1896957/HighwayEnv/rl_av/runs/REINFORCE")
+n = make_log_dir("/home/bikram/HighwayEnv/rl_av/runs/REINFORCE")
 
 
 writer = SummaryWriter(log_dir = f"/home/bikram/HighwayEnv/rl_av/runs/REINFORCE/run_{n}")
